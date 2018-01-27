@@ -12,7 +12,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBOutlet weak var pageCtrl: UIPageControl!
     @IBOutlet var pageControl: UIPageControl!
 
-        
+    @IBOutlet weak var settingsBtn: UIButton!
+    
     //picker columns
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -34,6 +35,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        /*
         //picker did load
         self.orgPicker.delegate = self
         self.orgPicker.dataSource = self
@@ -43,6 +46,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         pages = [UIView?](repeating: nil, count: numPages)
         pageControl.numberOfPages = numPages
         pageControl.currentPage = 0 */
+ 
+    */
         
         self.view.backgroundColor = UIColor.white
         
@@ -113,6 +118,12 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         
         
+    }
+    
+    //settings button function
+    
+    @IBAction func settingsAction(_ sender: Any) {
+    
     }
     
     
