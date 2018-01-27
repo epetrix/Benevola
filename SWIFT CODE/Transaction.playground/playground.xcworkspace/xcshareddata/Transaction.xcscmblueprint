@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "281ABD331744C59507080E88BFC03DB4B326AB49",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "281ABD331744C59507080E88BFC03DB4B326AB49" : 9223372036854775807,
+    "31F4CE3FA75560E169190D49C5A0CCFEFA3F554E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CAC1AF2B-140C-4061-A6D9-D3C672BBC824",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "281ABD331744C59507080E88BFC03DB4B326AB49" : "SheInnovates2018\/",
+    "31F4CE3FA75560E169190D49C5A0CCFEFA3F554E" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Transaction",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Transaction.playground",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/epetrix\/SheInnovates2018.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "281ABD331744C59507080E88BFC03DB4B326AB49"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/epetrix\/edp34_Poj1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31F4CE3FA75560E169190D49C5A0CCFEFA3F554E"
+    }
+  ]
+}
