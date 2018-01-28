@@ -5,29 +5,40 @@
 //  Created by Ava Chong on 1/27/18.
 //  Copyright © 2018 Ava Chong. All rights reserved.
 //
-
 import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UIScrollViewDelegate{
-    @IBOutlet weak var pageCtrl: UIPageControl!
-    @IBOutlet var pageControl: UIPageControl!
-
-    @IBOutlet weak var settingsBtn: UIButton!
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        <#code#>
+    }
+    
+    
+    @IBOutlet weak var dropDown: UIPickerView!
+    var list = ["let girls learn","2","3"]
+    
     
     //picker columns
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+    func numberOfComponentsInPickerView(in pickerView: UIPickerView) -> Int {
         return 1
     }
     
     //picker rows
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return orgPickerData.count
+        return list.count
     }
     
     //the data to return from picker
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return orgPickerData[row]
+        self.view.endEditing(true)
+        return list[row]
     }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
+        
+        self.textBox.text = self.list[row]
+        self.dropDown.isHidden = true
+    }
+    
     
     @IBOutlet weak var orgPicker: UIPickerView!
     var orgPickerData: [String] = [String]()
@@ -37,17 +48,17 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         
         /*
-        //picker did load
-        self.orgPicker.delegate = self
-        self.orgPicker.dataSource = self
-        orgPickerData = ["Org1","Org2"]
-        
-        /*page control did load
-        pages = [UIView?](repeating: nil, count: numPages)
-        pageControl.numberOfPages = numPages
-        pageControl.currentPage = 0 */
- 
-    */
+         //picker did load
+         self.orgPicker.delegate = self
+         self.orgPicker.dataSource = self
+         orgPickerData = ["Org1","Org2"]
+         
+         /*page control did load
+         pages = [UIView?](repeating: nil, count: numPages)
+         pageControl.numberOfPages = numPages
+         pageControl.currentPage = 0 */
+         
+         */
         
         self.view.backgroundColor = UIColor.white
         
@@ -85,7 +96,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap)))
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -123,7 +134,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     //settings button function
     
     @IBAction func settingsAction(_ sender: Any) {
-    
+        
     }
     
     
