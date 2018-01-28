@@ -1,2 +1,2 @@
 # SheInnovates2018
-Acorns style donation app to empower underrepresented girls in developing countries
+Acorns style donation app that sends your spare change to a charity that sends girls in underrepresented communitites and  developing countries to school.
