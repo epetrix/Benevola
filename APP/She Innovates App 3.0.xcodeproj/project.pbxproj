@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		106E295C201D9068003E4EFC /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E295B201D9068003E4EFC /* PageViewController.swift */; };
+		106E295E201D90AF003E4EFC /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E295D201D90AF003E4EFC /* ViewController1.swift */; };
+		106E2960201D90DC003E4EFC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E295F201D90DC003E4EFC /* ViewController2.swift */; };
+		106E2962201D90E4003E4EFC /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E2961201D90E4003E4EFC /* ViewController3.swift */; };
+		106E2964201D90EE003E4EFC /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E2963201D90EE003E4EFC /* ViewController4.swift */; };
+		106E2966201D9153003E4EFC /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E2965201D9153003E4EFC /* ViewController5.swift */; };
 		BC0110B5201CE1200034B8DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0110B4201CE1200034B8DD /* AppDelegate.swift */; };
 		BC0110B7201CE1200034B8DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0110B6201CE1200034B8DD /* ViewController.swift */; };
 		BC0110BA201CE1200034B8DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0110B8201CE1200034B8DD /* Main.storyboard */; };
@@ -33,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		106E295B201D9068003E4EFC /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		106E295D201D90AF003E4EFC /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		106E295F201D90DC003E4EFC /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		106E2961201D90E4003E4EFC /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		106E2963201D90EE003E4EFC /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		106E2965201D9153003E4EFC /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 		BC0110B1201CE1200034B8DD /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0110B4201CE1200034B8DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC0110B6201CE1200034B8DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +109,12 @@
 				BC0110B4201CE1200034B8DD /* AppDelegate.swift */,
 				BC0110B6201CE1200034B8DD /* ViewController.swift */,
 				BC0110B8201CE1200034B8DD /* Main.storyboard */,
+				106E2965201D9153003E4EFC /* ViewController5.swift */,
+				106E2963201D90EE003E4EFC /* ViewController4.swift */,
+				106E2961201D90E4003E4EFC /* ViewController3.swift */,
+				106E295F201D90DC003E4EFC /* ViewController2.swift */,
+				106E295D201D90AF003E4EFC /* ViewController1.swift */,
+				106E295B201D9068003E4EFC /* PageViewController.swift */,
 				BC0110BB201CE1200034B8DD /* Assets.xcassets */,
 				BC0110BD201CE1200034B8DD /* LaunchScreen.storyboard */,
 				BC0110C0201CE1200034B8DD /* Info.plist */,
@@ -254,6 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106E2960201D90DC003E4EFC /* ViewController2.swift in Sources */,
+				106E2964201D90EE003E4EFC /* ViewController4.swift in Sources */,
+				106E295E201D90AF003E4EFC /* ViewController1.swift in Sources */,
+				106E2962201D90E4003E4EFC /* ViewController3.swift in Sources */,
+				106E2966201D9153003E4EFC /* ViewController5.swift in Sources */,
+				106E295C201D9068003E4EFC /* PageViewController.swift in Sources */,
 				BC0110B7201CE1200034B8DD /* ViewController.swift in Sources */,
 				BC0110B5201CE1200034B8DD /* AppDelegate.swift in Sources */,
 			);

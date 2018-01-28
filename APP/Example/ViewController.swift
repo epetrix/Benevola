@@ -9,9 +9,8 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UIScrollViewDelegate{
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        <#code#>
+        return(1)
     }
-    
     
     @IBOutlet weak var dropDown: UIPickerView!
     var list = ["let girls learn","2","3"]
@@ -35,7 +34,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
         
-        self.textBox.text = self.list[row]
+        //self.textBox.text = self.list[row]
         self.dropDown.isHidden = true
     }
     
@@ -45,20 +44,6 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        /*
-         //picker did load
-         self.orgPicker.delegate = self
-         self.orgPicker.dataSource = self
-         orgPickerData = ["Org1","Org2"]
-         
-         /*page control did load
-         pages = [UIView?](repeating: nil, count: numPages)
-         pageControl.numberOfPages = numPages
-         pageControl.currentPage = 0 */
-         
-         */
         
         self.view.backgroundColor = UIColor.white
         
@@ -107,36 +92,39 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
     
-    
-    //circle
-    
-    
-    
+    //CIRCLE
+    //this wouldn't be handle tap, rather handle transaction
     @objc private func handleTap()
     {
         print("attempting to animate stroke")
         
         let basicAnimation = CABasicAnimation(keyPath: "strokeEnd")
+        var increment = 0.00
         
+        basicAnimation.fromValue = 0
         basicAnimation.toValue = 1
         
-        basicAnimation.duration = 4 //how long it's going to take to go around
+        //to calculate byValue
+        func calcByValue(amount: Double, current: Double) -> Double {
+            
+            return(increment)
+        }
+        
+        basicAnimation.byValue = increment
+        
+        
+        
         
         basicAnimation.fillMode = kCAFillModeForwards
         basicAnimation.isRemovedOnCompletion = false //it will not disappear upon completion
         
         shapeLayer.add(basicAnimation, forKey: "basic0")
-        
-        
-        
     }
     
-    //settings button function
     
+    //settings button function
     @IBAction func settingsAction(_ sender: Any) {
         
     }
-    
-    
 }
 
