@@ -105,7 +105,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.86238068342208862" green="0.95206397771835327" blue="0.67053908109664917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.43543606890036013" green="0.6463480263039747" blue="0.95389455556869507" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -134,7 +134,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FnM-2X-ueS">
                                 <rect key="frame" x="16" y="396" width="343" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.86321337310000001" green="0.95296198129999998" blue="0.66839998550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.96773284673690796" green="0.87114328145980835" blue="0.49349433183670044" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">$0.25   Friday, January 26              $0.63   Saturday, January 27              $0.34   Sunday, January 28              $1.74    Monday, January 29               $0.58   Tuesday, January 30              $2.02    Wednesday, January 31         $1.89    Thursday, February 1             $0.94    Friday, February 2                  $1.06     Saturday, February 3</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -144,13 +144,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.86274509803921573" green="0.95294117647058818" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.96773284670000004" green="0.87114328149999998" blue="0.49349433180000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="nBf-ny-RDm"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nzm-5H-EvY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1028" y="130"/>
+            <point key="canvasLocation" x="1028" y="129.98500749625188"/>
         </scene>
         <!--View Controller5-->
         <scene sceneID="iKs-CO-wjb">
@@ -226,7 +226,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.86238068342208862" green="0.95206397771835327" blue="0.67053908109664917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.65269301808402636" green="0.58748754764400035" blue="0.95565026998519897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="NTd-wE-pbx"/>
                     </view>
                 </viewController>
@@ -266,12 +266,8 @@
                                     <action selector="settingsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y0N-VW-vCP"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="27398579_2109710629272354_931637661_o" translatesAutoresizingMaskIntoConstraints="NO" id="Jl2-rv-wBN">
-                                <rect key="frame" x="0.0" y="300" width="375" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.82513898611068726" green="0.93810170888900757" blue="0.62913614511489868" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.95661658049999998" green="0.55447965860000004" blue="0.55402737859999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ZlL-GP-33d"/>
                     </view>
                 </viewController>
@@ -282,7 +278,6 @@
     </scenes>
     <resources>
         <image name="27393804_2109605302616220_547608199_o" width="2050" height="2050"/>
-        <image name="27398579_2109710629272354_931637661_o" width="2050" height="2050"/>
         <image name="bargraph" width="512" height="512"/>
     </resources>
 </document>
